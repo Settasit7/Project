@@ -4,4 +4,4 @@ pandas
 plotly
 streamlit
 yfinance
-pystan==2.19.1.1
+pystan

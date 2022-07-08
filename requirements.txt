@@ -4,3 +4,4 @@ pandas==1.4.3
 plotly==5.9.0
 streamlit==1.10.0
 yfinance==0.1.72
+pystan==2.19.1.1

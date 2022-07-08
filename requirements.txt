@@ -5,5 +5,4 @@ plotly
 streamlit
 yfinance
 pystan
-build-essential
 python3-dev

@@ -5,3 +5,7 @@ plotly
 streamlit
 yfinance
 pystan
+gcc
+g++
+build-essential
+python3-dev

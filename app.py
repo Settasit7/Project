@@ -139,16 +139,20 @@ def function():
     st.header('มาคุยกัน')
     st.write('##')
 
-    contact_form = '''
-    <form action = 'https://formsubmit.co/44cb3e677835b6d430f0e09576b4dece' method = 'POST'>
-        <input type = 'text' name = 'name' placeholder = 'ชื่อ' required>
-        <input type = 'email' name = 'email' placeholder = 'อีเมล' required>
-        <textarea name = 'message' placeholder = 'ข้อความ' required></textarea>
-        <button type="submit">ส่ง</button>
-    </form>
-    '''
+    col1, col2 = st.columns(2)
 
-    st.markdown(contact_form, unsafe_allow_html = True)
+    with col1:
+
+        contact_form = '''
+        <form action = 'https://formsubmit.co/44cb3e677835b6d430f0e09576b4dece' method = 'POST'>
+            <input type = 'text' name = 'name' placeholder = 'ชื่อ' required>
+            <input type = 'email' name = 'email' placeholder = 'อีเมล' required>
+            <textarea name = 'message' placeholder = 'ข้อความ' required></textarea>
+            <button type="submit">ส่ง</button>
+        </form>
+        '''
+
+        st.markdown(contact_form, unsafe_allow_html = True)
 
 function()
 
